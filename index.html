@@ -1,10 +1,274 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Coming Soon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Collega il CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
-<body>
-  <h1>Sito in costruzione - torna presto!</h1>
+
+<body class="home">
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo-primary" src="images/Logo.png" alt="Logo Cliente">
+            </a>
+            <a href="index.html">
+                <img class="logo-secondary" src="images/Nome.png" alt="Nome Cliente">
+            </a>
+        </div>
+        
+        <nav class="menu">
+            <a href="index.html">Homepage</a>
+            <a href="chisiamo.html">Chi siamo</a>
+            <a href="https://ballaesnellabellizzi.com/">Balla&Snella</a>
+            <a href="https://balla-snella-online.mykajabi.com/offers/wAChy8zr">Balla&Snella Online</a>
+            <a href="scopridipiu.html">Scopri di più</a>
+        </nav>
+        <!-- Menu Hamburger -->
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Dropdown Menu -->
+        <div class="dropdown-menu">
+            <a href="index.html">Homepage</a>
+            <a href="chisiamo.html">Chi siamo</a>
+            <a href="https://ballaesnellabellizzi.com/">Balla&Snella</a>
+            <a href="https://balla-snella-online.mykajabi.com/offers/wAChy8zr">Balla&Snella Online</a>
+            <a href="scopridipiu.html">Scopri di più</a>
+        </div>
+    </header>
+
+    <!-- Colonna Destra con lo Slider -->
+    <section class="slider">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!--Les Mills Core-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p><b><span class="important">Les Mills Core</span></b> è un corso di fitness senza impatti, basato sul rinforzo e la tonificazione dei muscoli della parte centrale del corpo.</p> <p>Lavorando sui muscoli che legano la parta alta e la parte bassa del corpo, si migliora la forza funzionale e la resistenza muscolare per avere un miglior controllo del corpo, facilitando la vita quotidiana e prevenendo gli infortuni.</p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <div class="video-pair">
+                                <video autoplay loop muted playsinline>
+                                <source src="images/lesmills1_960x1080.mp4" type="video/mp4">
+                                </video>
+
+                                <video autoplay loop muted playsinline>
+                                <source src="images/lesmills2_960x1080.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Les Mills - Born to Move-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p><b><span class="important">Born to Move</span></b> unisce fitness e divertimento per aiutare bambini ed adolescenti a sviluppare consapevolezza di sé, fiducia in se stessi e coordinazione.</p> <p>Questo programma è rivolto ad una specifica fascia d'età e per la fase di sviluppo principale, per adattarsi sia alla prima infanzia che all'età scolare. </p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <div class="video-pair">
+                                <video autoplay loop muted playsinline>
+                                <source src="images/lesmillschild1_960x1080.mp4" type="video/mp4">
+                                </video>
+
+                                <video autoplay loop muted playsinline>
+                                <source src="images/lesmillschild2_960x1080.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Personal-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p>Stanco delle palestre affollate e senza supporto? Unisciti alle <b><span class="important">Mini-class</span></b> con Personal Trainer!</p> <p>Piccoli gruppi, attenzione personalizzata e allenamenti pensati esclusivamente per te.</p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <img src="images/Gym Fit.jpg" alt="Foto 1">
+                        </div>
+                    </div>
+                </div>
+                <!--Zumba-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p>Sei pronto a divertirti, bruciare calorie e migliorare la tua forma fisica?</p> <p>Il corso di <b><span class="important">Zumba</span></b> è l’allenamento che fa per te! Inizia ad ottenere una versione di te stesso più in forma e felice!</p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <img src="images/Zumba.jpg" alt="Foto 1">
+                        </div>
+                    </div>
+                </div>
+                <!--Pilates-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p>Ritrova equilibrio e forza con il <b><span class="important">Postural Pilates</span></b>.</p> <p>Un allenamento rieducativo e preventivo, mirato a migliorare la postura ed aumentare la flessibilità. Con movimenti fluidi e controllati, sentirai subito i benefici di un corpo più allineato e forte. Riscopri il tuo benessere!</p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <img src="images/Pilates.jpg" alt="Foto 1">
+                        </div>
+                    </div>
+                </div>     
+                <!--Vacum Fit-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p>Riduci la fatica ed aumenta il risultato! Il <b><span class="important">VacumFit</span></b> è per coloro che hanno voglia di allenarsi ed ottenere risultati in breve tempo.</p> <p>Perché sceglierlo? Agisce sulla cellulite, riduce il grasso localizzato, tonifica, e rimodella la tua silhouette</p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <img src="images/Vacum.jpg" alt="Foto 1">
+                        </div>
+                    </div>
+                </div>
+                <!--Hydro Bike-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p>Riduci la fatica ed aumenta il risultato! Il <b><span class="important">VacumFit</span></b> è per coloro che hanno voglia di allenarsi ed ottenere risultati in breve tempo.</p> <p>Perché sceglierlo? Agisce sulla cellulite, riduce il grasso localizzato, tonifica, e rimodella la tua silhouette</p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <img src="images/hydro.jpg" alt="Foto 1">
+                        </div>
+                    </div>
+                </div>
+                <!--Danza-->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p>Intraprendi il tuo <b><span class="important">percorso formativo</span></b>, pensato per tutti coloro che desiderano perfezionare la propria tecnica ed intraprendere un percorso professionale, dai 7 anni in su.</p> <p>Prenota la tua lezione privata ed inizia il tuo cammino verso il successo!</p>
+                            <a href="https://wa.me/393457562100?text=Ciao!%20Vorrei%20informazioni%20per%20una%20prova"
+                                class="slide-button"
+                                target="_blank" rel="noopener">
+                                <span class="btn-icon" aria-hidden="true">
+                                    <!-- WhatsApp SVG -->
+                                    <svg viewBox="0 0 32 32" width="28" height="28" focusable="false">
+                                    <path d="M19.1 17.3c-.3-.2-1.7-.8-1.9-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-1 .9-.2.1-.4.1-.7-.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.6-1-2.2-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8 0 1.6 1.2 3.2 1.3 3.4.2.2 2.3 3.5 5.6 4.9.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4 0-.1-.3-.2-.6-.4z"/>
+                                    <path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.8 6.3L3 29l6.9-1.8C11.8 28.4 13.9 29 16 29c7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-1.9 0-3.7-.5-5.3-1.5l-.4-.2-4.1 1.1 1.1-4-.3-.4c-1-1.7-1.5-3.6-1.5-5.6C5.5 9.2 10.2 4.5 16 4.5S26.5 9.2 26.5 16 21.8 26.6 16 26.6z"/>
+                                    </svg>
+                                </span>
+                                Contattaci subito!
+                            </a>
+                        </div>
+                        <div class="image-column">
+                            <img src="images/Danza.jpg" alt="Foto 1">
+                        </div>
+                    </div>
+                </div>
+                <!--Balla&Snella-->
+                <!--
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="text-column">
+                            <p>La Palestra TI ANNOIA? Raggiungi la tua forma migliore Ballando.</p> <p><b><span class="important">Balla&Snella</span></b> Dimagrire Ballando è il sistema <b><span class="important">100% al femminile</span></b> che ti permette di: perdere peso, tonificare e rassodare tutto il corpo, bruciare fino a 700 kcal a lezione, diventare più agile e flessibile.</p>
+                            <a href="https://www.orangogo.it/corsi/corso-di-fitness-per-bambini-a-s-d-dance-academy-fit-bellizzi" class="slide-button" target="_blank">Prenota la prova!</a>
+                        </div>
+                        <div class="image-column">
+                            <img src="images/ballaesnella2.jpg" alt="Foto 1">
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <!-- Bottoni per navigare -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
